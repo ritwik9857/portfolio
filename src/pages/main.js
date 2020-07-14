@@ -8,7 +8,7 @@ import ContactMe from './contactme';
 const main = () =>(
     <BrowserRouter>
     <Switch>
-        <Route exact path='/' component={landingpage} />
+        <Route exact path='/MyPortfolio' component={landingpage} />
         <Route exact path='/about' component={about} />
         <Route exact path='/resume' component={resume} />
         <Route exact path='/projects' component={Projects} />
