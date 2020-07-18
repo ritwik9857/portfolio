@@ -4,9 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {  faAddressCard, faLaptop, faFile, faPhoneSquareAlt} from '@fortawesome/free-solid-svg-icons'
 import { Grid, Cell } from 'react-mdl';
 class landingpage extends Component {
-  onclick = () =>{
-    return <Redirect to='/about' />
-  }
+
     render(){
   return (
             
